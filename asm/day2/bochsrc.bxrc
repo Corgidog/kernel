@@ -1,0 +1,8 @@
+megs: 32
+romimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/VGABIOS-lgpl-latest
+
+floppya: 1_44=entry.img, status=inserted
+boot: floppy
+log: bochsout.txt
+mouse: enabled=0
